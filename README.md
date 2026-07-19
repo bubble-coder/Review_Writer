@@ -4,6 +4,9 @@
 
 当前版本：`0.7.0`
 
+<img width="1236" height="864" alt="image" src="https://github.com/user-attachments/assets/cd21df49-bc25-4fa3-afea-66be8232752b" />
+
+
 ## 为什么做这个应用
 
 研究生牛马经常要调研一些文献，用于申报项目之类的，今天调研这个，明天调研那个，每一次都要：
