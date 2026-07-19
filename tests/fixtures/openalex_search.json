@@ -1,0 +1,15 @@
+{
+  "meta": {"count": 1, "next_cursor": null},
+  "results": [
+    {
+      "id": "https://openalex.org/W-OFFLINE-1",
+      "doi": "https://doi.org/10.1000/offline",
+      "display_name": "Offline contract fixture",
+      "publication_year": 2024,
+      "authorships": [{"author": {"display_name": "Test Author"}}],
+      "primary_location": {"source": {"display_name": "Fixture Journal"}},
+      "open_access": {"is_oa": true, "oa_status": "gold"},
+      "cited_by_count": 3
+    }
+  ]
+}

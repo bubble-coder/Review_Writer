@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "catalog_version": "test-2",
+  "updated_at": "2026-07-13T00:00:00Z",
+  "currency_note": "离线测试目录",
+  "models": [
+    {
+      "provider_id": "example",
+      "provider_name": "Example Provider",
+      "model": "example-research-2",
+      "protocol": "openai_compatible",
+      "api_base": "https://api.example.test/v1",
+      "pricing_summary": "USD $1 输入 / $4 输出",
+      "input_price_per_million": 1,
+      "output_price_per_million": 4,
+      "cached_input_price_per_million": 0.25,
+      "price_currency": "USD",
+      "price_effective_at": "2026-07-13",
+      "price_tiers": [
+        {
+          "min_input_tokens": 0,
+          "max_input_tokens": 100000,
+          "input_price_per_million": 1,
+          "output_price_per_million": 4,
+          "cached_input_price_per_million": 0.25
+        },
+        {
+          "min_input_tokens": 100001,
+          "input_price_per_million": 2,
+          "output_price_per_million": 8,
+          "cached_input_price_per_million": 0.5
+        }
+      ],
+      "recommendation": "离线目录更新测试",
+      "capability_tags": ["长上下文", "结构化输出"],
+      "model_url": "https://docs.example.test/models/example-research-2",
+      "pricing_url": "https://docs.example.test/pricing",
+      "last_verified": "2026-07-13"
+    }
+  ]
+}

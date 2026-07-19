@@ -1,0 +1,24 @@
+[project]
+name = "review-writer"
+version = "0.7.0"
+description = "A local evidence-traceable literature research and reporting assistant"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pdfplumber>=0.11,<0.12",
+    "pypdf>=6.0,<7",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.21,<7",
+]
+
+[project.scripts]
+review-writer = "review_writer.ui:launch"
+
+[tool.setuptools.package-data]
+review_writer = ["model_catalog.json"]
+
+[tool.unittest]
+start-directory = "tests"

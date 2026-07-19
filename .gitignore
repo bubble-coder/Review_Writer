@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.coverage
+
+# Virtual environments
+.venv
+.uv-cache/
+
+# Local application output
+outputs/
+.local/
+
+# Local editors and development tools
+.agents/
+.build-tools/
+.codegraph/
+.codex/
+.idea/
+README/
+
+# Local reference snapshots are not application runtime dependencies
+reference/

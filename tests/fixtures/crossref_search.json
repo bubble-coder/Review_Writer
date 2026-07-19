@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "message": {
+    "items": [
+      {
+        "title": ["Offline contract fixture"],
+        "author": [{"given": "Test", "family": "Author"}],
+        "DOI": "10.1000/offline",
+        "published": {"date-parts": [[2024, 1, 1]]},
+        "container-title": ["Fixture Journal"]
+      }
+    ]
+  }
+}

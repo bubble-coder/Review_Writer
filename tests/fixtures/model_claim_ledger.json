@@ -1,0 +1,11 @@
+{
+  "claims": [
+    {
+      "claim_id": "C1",
+      "core_question_index": 1,
+      "claim_text": "Fixture claim tied to supplied evidence only.",
+      "citation_ids": ["paper-fixture"],
+      "evidence_block_ids": ["paper-fixture:A0001"]
+    }
+  ]
+}
